@@ -24,7 +24,7 @@ body{
 }
 .content{
   background-color: #0C4E4F;
-  padding: 50px;
+  padding: 10px 0 80px 80px;
   border-radius: 0 0 30px 30px;
 }
 ul{
@@ -36,5 +36,6 @@ li{
   padding: 0 0 15px 0;
 }
 .profile_images{
-  max-width: 50px;
+  max-width: 100px;
+  border-radius: 50%;
 }
