@@ -160,3 +160,101 @@
 {"commandName":"INJECT_EXTERNAL_DEPENDENCY","level":"info","message":"[CommandBus]: Handled  INJECT_EXTERNAL_DEPENDENCY","payload":{"entityFilePath":"C:/Users/Maciek/Kurs_Angular/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts","externalType":"HttpClient","genericFilePaths":[]}}
 {"level":"info","message":"[CLI] Called Command injectable/inject-external"}
 {"level":"info","message":"[API] Response ok: injectable/inject-external","result":{"filePath":"C:/Users/Maciek/Kurs_Angular/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts"}}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"position": 630
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "",
+			"correlationId": "K7M_a5ily5",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"position": 630
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Request for injectable/list: {
+	"action": "injectable/list",
+	"params": {
+		"entityFilePath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "",
+			"correlationId": "K7M_a5ily5",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/list"
+}
+[info] [CLI] Calling Query injectable/list: {
+	"funcParams": {
+		"entityFilePath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query injectable/list"
+}
+[info] [CLI] Called Query injectable/list: {
+	"result": [
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query injectable/list"
+}
+[info] [API] Response ok: injectable/list: {
+	"result": [
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: injectable/list"
+}
