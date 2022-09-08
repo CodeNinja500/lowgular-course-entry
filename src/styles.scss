@@ -25,10 +25,16 @@ body{
   height: 3px;
   background-color: white;
 }
-.content{
+#content_1{
   background-color: #0C4E4F;
   padding: 10px 0 80px 80px;
+  border-radius: 0 0 0 0;
+}
+#content_2{
+  background-color: #5F5D73;
+  padding: 10px 0 80px 80px;
   border-radius: 0 0 30px 30px;
+
 }
 ul{
   list-style-type: none;
