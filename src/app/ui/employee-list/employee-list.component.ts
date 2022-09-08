@@ -12,6 +12,8 @@ import { EmployeeModel } from '../../model/employee.model';
 export class EmployeeListComponent {
 
   constructor(private _httpClient: HttpClient) {}
+
+  message: string = "Important message! Do not distribute the list!"
   data$: Observable<EmployeeModel[] | null> = this._httpClient.get<EmployeeModel[]>('assets/data/employees.json')
 
 
