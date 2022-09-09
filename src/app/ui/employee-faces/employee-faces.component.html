@@ -1,6 +1,10 @@
 <h2>Employee faces</h2>
 <ul *ngIf="data$ | async as data; else empty">
-  <li id="list-profile-pictures" *ngFor="let employee of data"><img alt="profile picture" class="profile-image" [src]="employee.image"><br>{{employee.name}}</li>
+  <li id="list-profile-pictures" *ngFor="let employee of data">
+    <img alt="profile picture" class="profile-image" [src]="employee.image">
+    <br>
+    {{employee.name}}
+  </li>
 </ul>
 
-<ng-template #empty> There is profile pictures </ng-template>
+<ng-template #empty> There are no profile pictures </ng-template>
