@@ -1,7 +1,7 @@
 <h2>Employee faces</h2>
 <ul *ngIf="data$ | async as data; else empty">
   <li id="list-profile-pictures" *ngFor="let employee of data">
-    <img alt="profile picture" class="profile-image" [src]="employee.image">
+    <img alt="profile picture" class="profile-image" [src]="employee.img">
     <br>
     {{employee.name}}
   </li>

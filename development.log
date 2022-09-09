@@ -2414,3 +2414,239 @@
 	"level": "info",
 	"message": "[API] Response ok: injectable/inject"
 }
+[info] [API] Request for projects/list: {
+	"action": "projects/list",
+	"params": {
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/model"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "b2W4Su0eRGegq67s8PYSB4MTcbG2",
+			"correlationId": "uaxsHOVCFE",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for projects/list"
+}
+[info] [CLI] Calling Query projects/list: {
+	"funcParams": {
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/model"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query projects/list"
+}
+[info] [CLI] Called Query projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[CLI] Called Query projects/list"
+}
+[info] [API] Response ok: projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[API] Response ok: projects/list"
+}
+[info] [API] Request for entity/list: {
+	"action": "entity/list",
+	"params": {
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "b2W4Su0eRGegq67s8PYSB4MTcbG2",
+			"correlationId": "uaxsHOVCFE",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/list"
+}
+[info] [CLI] Calling Query entity/list: {
+	"funcParams": {
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/list"
+}
+[info] [CLI] Called Query entity/list: {
+	"result": [
+		{
+			"id": "component",
+			"type": "ANGULAR_COMPONENT",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App",
+			"config": {
+				"stylesExtension": "none",
+				"viewEncapsulation": "Emulated",
+				"selector": "generated",
+				"changeDetectionStrategy": "OnPush"
+			}
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		},
+		{
+			"id": "response",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Response",
+			"folder": "services",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/list"
+}
+[info] [API] Response ok: entity/list: {
+	"result": [
+		{
+			"id": "component",
+			"type": "ANGULAR_COMPONENT",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App",
+			"config": {
+				"stylesExtension": "none",
+				"viewEncapsulation": "Emulated",
+				"selector": "generated",
+				"changeDetectionStrategy": "OnPush"
+			}
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		},
+		{
+			"id": "response",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Response",
+			"folder": "services",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/list"
+}
+[info] [API] Request for data-structure/create: {
+	"action": "data-structure/create",
+	"params": {
+		"name": "person",
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/model",
+		"entityId": "model",
+		"properties": {
+			"personalNumber": "string",
+			"name": "string",
+			"mail": "string",
+			"img": "string"
+		}
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "b2W4Su0eRGegq67s8PYSB4MTcbG2",
+			"correlationId": "uaxsHOVCFE",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for data-structure/create"
+}
+[info] [CLI] Calling Command data-structure/create: {
+	"funcParams": {
+		"name": "person",
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/model",
+		"entityId": "model",
+		"properties": {
+			"personalNumber": "string",
+			"name": "string",
+			"mail": "string",
+			"img": "string"
+		}
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command data-structure/create"
+}
+[info] [CommandBus]: Dispatching command CREATE_DATA_STRUCTURE: {
+	"commandName": "CREATE_DATA_STRUCTURE",
+	"payload": {
+		"folderPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/model",
+		"name": "person",
+		"suffix": "Model",
+		"properties": {
+			"personalNumber": "string",
+			"name": "string",
+			"mail": "string",
+			"img": "string"
+		}
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command CREATE_DATA_STRUCTURE"
+}
+[info] [CommandBus]: Handled  CREATE_DATA_STRUCTURE: {
+	"commandName": "CREATE_DATA_STRUCTURE",
+	"payload": {
+		"folderPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/model",
+		"name": "person",
+		"suffix": "Model",
+		"properties": {
+			"personalNumber": "string",
+			"name": "string",
+			"mail": "string",
+			"img": "string"
+		}
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  CREATE_DATA_STRUCTURE"
+}
+[info] [CLI] Called Command data-structure/create: {
+	"message": "[CLI] Called Command data-structure/create",
+	"level": "info"
+}
+[info] [API] Response ok: data-structure/create: {
+	"result": {
+		"filePath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/model/person.model.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: data-structure/create"
+}
