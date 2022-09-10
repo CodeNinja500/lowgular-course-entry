@@ -1,12 +1,12 @@
 <h2>Add new employee</h2>
 <form [formGroup]="employeeForm">
-  <input type="text" formControlName="name" placeholder="name">
-  <input type="number" formControlName="age" placeholder="age">
-  <input type="number" formControlName="salary" placeholder="salary">
-  <input type="submit" [disabled]="employeeForm.invalid" value="submit">
+  <input class="input-employee" type="text" formControlName="name" placeholder="name">
+  <input class="input-employee" type="number" formControlName="age" placeholder="age">
+  <input class="input-employee" type="number" formControlName="salary" placeholder="salary">
+  <input class="input-employee" type="submit" [disabled]="employeeForm.invalid" value="submit">
 </form>
-<div *ngIf="employeeForm.valid">
-Your new employee name: {{employeeForm.value.name}},
+<div id="employee-data-preview" *ngIf="employeeForm.valid">
+Your new employee (name: {{employeeForm.value.name}},
 age: {{employeeForm.value.age}},
-salary: {{employeeForm.value.salary}}
+salary: {{employeeForm.value.salary}}) will be added.
 </div>

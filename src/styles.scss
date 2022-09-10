@@ -29,7 +29,7 @@ body{
 #content_1{
   text-align: center;
   background-color: #284259;
-  padding: 10px 0 50px 0;
+  padding: 10px 0 30px 0;
   border-radius: 0 0 0 0;
 }
 #content_form{
@@ -40,13 +40,13 @@ body{
 #content_2{
   text-align: center;
   background-color: #284259;
-  padding: 50px 0 50px 0;
+  padding: 30px 0 30px 0;
   border-radius: 0 0 0 0;
 }
 #content_3{
   text-align: center;
   background-color: #4478A6;
-  padding: 50px 0 50px 0;
+  padding: 30px 0 30px 0;
   border-radius: 0 0 15px 15px;
 
 }
@@ -79,7 +79,23 @@ li{
   background-color: #4478A6;
   width: 200px;
   height: 200px;
-  margin: 0 25px 30px 25px;
+  margin: 0 25px 0 25px;
   display: inline-block;
   padding: 10px 10px 10px 10px;
+}
+
+.input-employee{
+  margin: 0 10px 0 10px;
+  border-radius: 8px;
+  padding: 7px;
+  font-size: medium;
+  box-sizing: border-box;
+}
+.input-employee[type="text"], .input-employee[type="number"]{
+  border: 2px solid red;
+}
+
+#employee-data-preview{
+  padding: 15px;
+  font-size: medium;
 }
