@@ -11,13 +11,16 @@ h2{
 }
 body{
   padding: 30px 10% 100px 10%;
-  background-color: #081826;
+  background-image: url("assets/bg-gradient.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
   min-width: 220px;
   color: #F2F2F2;
   font-family: Arial;
 }
 .header{
-  background-color: #4478A6;
+  //background-color: #4478A6;
   text-align: center;
   padding: 20px;
   border-radius: 15px 15px 0 0;
@@ -25,27 +28,28 @@ body{
 .spacer{
   height: 1px;
   background-color: white;
+  display: none;
 }
 #content_1{
   text-align: center;
-  background-color: #284259;
+  //background-color: #284259;
   padding: 10px 0 30px 0;
   border-radius: 0 0 0 0;
 }
 #content_form{
   text-align: center;
-  background-color: #284259;
+  //background-color: #284259;
   padding: 30px 0 30px 0;
 }
 #content_2{
   text-align: center;
-  background-color: #284259;
+  //background-color: #284259;
   padding: 30px 0 30px 0;
   border-radius: 0 0 0 0;
 }
 #content_3{
   text-align: center;
-  background-color: #4478A6;
+  //background-color: #4478A6;
   padding: 30px 0 30px 0;
   border-radius: 0 0 15px 15px;
 
@@ -76,7 +80,7 @@ li{
 }
 #project{
   border-radius: 10px;
-  background-color: #4478A6;
+  background-color: #011640;
   width: 200px;
   height: 150px;
   margin: 20px 25px 20px 25px;
