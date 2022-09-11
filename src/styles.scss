@@ -82,14 +82,19 @@ li{
 #project{
   border-radius: 10px;
   background-color: #121135;
-  width: 220px;
-  height: 150px;
+  width: 200px;
   margin: 20px 25px 20px 25px;
   display: inline-block;
-  padding: 10px 10px 10px 10px;
+  padding: 20px 20px 20px 20px;
   vertical-align: top;
 }
+#project-content{
 
+}
+#project-signature{
+  position: relative;
+  text-align: right;
+}
 .input-employee{
   margin: 0 10px 10px 10px;
   border-radius: 8px;
@@ -105,3 +110,4 @@ li{
   padding: 15px;
   font-size: medium;
 }
+
