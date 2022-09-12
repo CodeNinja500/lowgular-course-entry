@@ -13,4 +13,8 @@ export class EmployeeFormComponent {
     age: new FormControl(null,[Validators.required,Validators.min(0)]),
     salary: new FormControl(null, [Validators.required,Validators.min(0)])
   });
+
+  onButtonClicked(){
+    alert('User was successfully added to thedatabase');
+  }
 }
