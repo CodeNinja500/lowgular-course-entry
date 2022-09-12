@@ -18,10 +18,7 @@ export class EmployeeFormComponent {
   constructor(private _employeeService: EmployeeService) {
   }
 
-  onButtonClicked(form: { name: string, age: number, salary: number }) {
-    alert('User was successfully added to the database! Name: ' + form.name + ', age: ' + form.age + ', salary: ' + form.salary);
-  }
   onFormSubmitted(form: { name: string, age: number, salary: number }) {
-    this._employeeService.create(form).subscribe();
+    this._employeeService.create({ name: form.name, age: form.age, salary: form.salary }).subscribe();
   }
 }

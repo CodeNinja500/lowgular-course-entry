@@ -6205,3 +6205,1178 @@
 	"level": "info",
 	"message": "[API] Response ok: injectable/inject"
 }
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/services/employee.service.ts",
+		"position": 466
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "b2W4Su0eRGegq67s8PYSB4MTcbG2",
+			"correlationId": "TCM4Q95mLg",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/services/employee.service.ts",
+		"position": 466
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "ADD_METHOD",
+			"label": "Add method",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "ADD_METHOD",
+			"label": "Add method",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for method-signature/add-write: {
+	"action": "method-signature/add-write",
+	"params": {
+		"entityFilePath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/services/employee.service.ts",
+		"name": "create",
+		"params": {
+			"employee": "CreateEmployeeModel"
+		}
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "b2W4Su0eRGegq67s8PYSB4MTcbG2",
+			"correlationId": "TCM4Q95mLg",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for method-signature/add-write"
+}
+[info] [CLI] Calling Command method-signature/add-write: {
+	"funcParams": {
+		"entityFilePath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/services/employee.service.ts",
+		"name": "create",
+		"params": {
+			"employee": "CreateEmployeeModel"
+		}
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command method-signature/add-write"
+}
+[info] [CLI] Called Command method-signature/add-write: {
+	"message": "[CLI] Called Command method-signature/add-write",
+	"level": "info"
+}
+[info] [API] Response ok: method-signature/add-write: {
+	"result": {
+		"filePath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/services/employee.service.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: method-signature/add-write"
+}
+[info] [CommandBus]: Dispatching command ADD_ABSTRACTION_METHOD: {
+	"commandName": "ADD_ABSTRACTION_METHOD",
+	"payload": {
+		"abstractionFilePath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/services/employee.service.ts",
+		"name": "create",
+		"params": {
+			"employee": "CreateEmployeeModel"
+		},
+		"type": "class"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command ADD_ABSTRACTION_METHOD"
+}
+[info] [CommandBus]: Handled  ADD_ABSTRACTION_METHOD: {
+	"commandName": "ADD_ABSTRACTION_METHOD",
+	"payload": {
+		"abstractionFilePath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/services/employee.service.ts",
+		"name": "create",
+		"params": {
+			"employee": "CreateEmployeeModel"
+		},
+		"type": "class"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  ADD_ABSTRACTION_METHOD"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/services/employee.service.ts",
+		"position": 469
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "b2W4Su0eRGegq67s8PYSB4MTcbG2",
+			"correlationId": "4b-Kq5Ao9Y",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/services/employee.service.ts",
+		"position": 469
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "ADD_METHOD",
+			"label": "Add method",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "ADD_METHOD",
+			"label": "Add method",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Request for method-signature/add-write: {
+	"action": "method-signature/add-write",
+	"params": {
+		"entityFilePath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/services/employee.service.ts",
+		"name": "create",
+		"params": {
+			"employee": "CreateEmployeeModel"
+		}
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "b2W4Su0eRGegq67s8PYSB4MTcbG2",
+			"correlationId": "4b-Kq5Ao9Y",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for method-signature/add-write"
+}
+[info] [CLI] Calling Command method-signature/add-write: {
+	"funcParams": {
+		"entityFilePath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/services/employee.service.ts",
+		"name": "create",
+		"params": {
+			"employee": "CreateEmployeeModel"
+		}
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command method-signature/add-write"
+}
+[info] [CommandBus]: Dispatching command ADD_ABSTRACTION_METHOD: {
+	"commandName": "ADD_ABSTRACTION_METHOD",
+	"payload": {
+		"abstractionFilePath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/services/employee.service.ts",
+		"name": "create",
+		"params": {
+			"employee": "CreateEmployeeModel"
+		},
+		"type": "class"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command ADD_ABSTRACTION_METHOD"
+}
+[info] [CommandBus]: Handled  ADD_ABSTRACTION_METHOD: {
+	"commandName": "ADD_ABSTRACTION_METHOD",
+	"payload": {
+		"abstractionFilePath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/services/employee.service.ts",
+		"name": "create",
+		"params": {
+			"employee": "CreateEmployeeModel"
+		},
+		"type": "class"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  ADD_ABSTRACTION_METHOD"
+}
+[info] [CLI] Called Command method-signature/add-write: {
+	"message": "[CLI] Called Command method-signature/add-write",
+	"level": "info"
+}
+[info] [API] Response ok: method-signature/add-write: {
+	"result": {
+		"filePath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/services/employee.service.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: method-signature/add-write"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/services/employee.service.ts",
+		"position": 537
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "b2W4Su0eRGegq67s8PYSB4MTcbG2",
+			"correlationId": "yFRLMjiwGD",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/services/employee.service.ts",
+		"position": 537
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "ADD_METHOD",
+			"label": "Add method",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "ADD_METHOD",
+			"label": "Add method",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Request for injectable/list: {
+	"action": "injectable/list",
+	"params": {
+		"entityFilePath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/services/employee.service.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "b2W4Su0eRGegq67s8PYSB4MTcbG2",
+			"correlationId": "yFRLMjiwGD",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/list"
+}
+[info] [CLI] Calling Query injectable/list: {
+	"funcParams": {
+		"entityFilePath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/services/employee.service.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query injectable/list"
+}
+[info] [CLI] Called Query injectable/list: {
+	"result": [
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query injectable/list"
+}
+[info] [API] Response ok: injectable/list: {
+	"result": [
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: injectable/list"
+}
+[info] [API] Request for injectable/inject-external: {
+	"action": "injectable/inject-external",
+	"params": {
+		"entityFilePath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/services/employee.service.ts",
+		"externalId": "httpClient"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "b2W4Su0eRGegq67s8PYSB4MTcbG2",
+			"correlationId": "yFRLMjiwGD",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/inject-external"
+}
+[info] [CLI] Calling Command injectable/inject-external: {
+	"funcParams": {
+		"entityFilePath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/services/employee.service.ts",
+		"externalId": "httpClient"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command injectable/inject-external"
+}
+[info] [CLI] Called Command injectable/inject-external: {
+	"message": "[CLI] Called Command injectable/inject-external",
+	"level": "info"
+}
+[info] [API] Response ok: injectable/inject-external: {
+	"result": {
+		"filePath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/services/employee.service.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: injectable/inject-external"
+}
+[info] [CommandBus]: Dispatching command INJECT_EXTERNAL_DEPENDENCY: {
+	"commandName": "INJECT_EXTERNAL_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/services/employee.service.ts",
+		"externalType": "HttpClient",
+		"genericFilePaths": []
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command INJECT_EXTERNAL_DEPENDENCY"
+}
+[info] [CommandBus]: Handled  INJECT_EXTERNAL_DEPENDENCY: {
+	"commandName": "INJECT_EXTERNAL_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/services/employee.service.ts",
+		"externalType": "HttpClient",
+		"genericFilePaths": []
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  INJECT_EXTERNAL_DEPENDENCY"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/services/employee.service.ts",
+		"position": 537
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "b2W4Su0eRGegq67s8PYSB4MTcbG2",
+			"correlationId": "gDQSMboSHI",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/services/employee.service.ts",
+		"position": 537
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "ADD_METHOD",
+			"label": "Add method",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "ADD_METHOD",
+			"label": "Add method",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/services/employee.service.ts",
+		"position": 537
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "b2W4Su0eRGegq67s8PYSB4MTcbG2",
+			"correlationId": "lLYLyL-cGe",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/services/employee.service.ts",
+		"position": 537
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "ADD_METHOD",
+			"label": "Add method",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "ADD_METHOD",
+			"label": "Add method",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Request for injectable/list: {
+	"action": "injectable/list",
+	"params": {
+		"entityFilePath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/services/employee.service.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "b2W4Su0eRGegq67s8PYSB4MTcbG2",
+			"correlationId": "lLYLyL-cGe",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/list"
+}
+[info] [CLI] Calling Query injectable/list: {
+	"funcParams": {
+		"entityFilePath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/services/employee.service.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query injectable/list"
+}
+[info] [CLI] Called Query injectable/list: {
+	"result": [
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query injectable/list"
+}
+[info] [API] Response ok: injectable/list: {
+	"result": [
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: injectable/list"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/services/employee.service.ts",
+		"position": 537
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "b2W4Su0eRGegq67s8PYSB4MTcbG2",
+			"correlationId": "au8t1EHTZP",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/services/employee.service.ts",
+		"position": 537
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "ADD_RXJS",
+			"label": "Add RxJS",
+			"context": {
+				"parentMethod": "create"
+			}
+		},
+		{
+			"id": "ADD_METHOD",
+			"label": "Add method",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "ADD_RXJS",
+			"label": "Add RxJS",
+			"context": {
+				"parentMethod": "create"
+			}
+		},
+		{
+			"id": "ADD_METHOD",
+			"label": "Add method",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Request for constructor/parameters: {
+	"action": "constructor/parameters",
+	"params": {
+		"entityFilePath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/services/employee.service.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "b2W4Su0eRGegq67s8PYSB4MTcbG2",
+			"correlationId": "au8t1EHTZP",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for constructor/parameters"
+}
+[info] [CLI] Calling Query constructor/parameters: {
+	"funcParams": {
+		"entityFilePath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/services/employee.service.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query constructor/parameters"
+}
+[info] [CLI] Called Query constructor/parameters: {
+	"result": [
+		{
+			"name": "_httpClient",
+			"type": "HttpClient",
+			"isReadonly": false,
+			"scope": "private",
+			"path": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/node_modules/@angular/common/http/http.d.ts"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query constructor/parameters"
+}
+[info] [API] Response ok: constructor/parameters: {
+	"result": [
+		{
+			"name": "_httpClient",
+			"type": "HttpClient",
+			"isReadonly": false,
+			"scope": "private",
+			"path": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/node_modules/@angular/common/http/http.d.ts"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: constructor/parameters"
+}
+[info] [API] Request for rxjs/observable-list: {
+	"action": "rxjs/observable-list",
+	"params": {
+		"entityPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/node_modules/@angular/common/http/http.d.ts",
+		"entityType": "HttpClient"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "b2W4Su0eRGegq67s8PYSB4MTcbG2",
+			"correlationId": "au8t1EHTZP",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for rxjs/observable-list"
+}
+[info] [API] Response ok: rxjs/observable-list: {
+	"result": [
+		{
+			"name": "request",
+			"label": "request()",
+			"type": "method"
+		},
+		{
+			"name": "delete",
+			"label": "delete()",
+			"type": "method"
+		},
+		{
+			"name": "get",
+			"label": "get()",
+			"type": "method"
+		},
+		{
+			"name": "head",
+			"label": "head()",
+			"type": "method"
+		},
+		{
+			"name": "jsonp",
+			"label": "jsonp()",
+			"type": "method"
+		},
+		{
+			"name": "options",
+			"label": "options()",
+			"type": "method"
+		},
+		{
+			"name": "patch",
+			"label": "patch()",
+			"type": "method"
+		},
+		{
+			"name": "post",
+			"label": "post()",
+			"type": "method"
+		},
+		{
+			"name": "put",
+			"label": "put()",
+			"type": "method"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: rxjs/observable-list"
+}
+[info] [CLI] Calling Query rxjs/observable-list: {
+	"funcParams": {
+		"entityPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/node_modules/@angular/common/http/http.d.ts",
+		"entityType": "HttpClient"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query rxjs/observable-list"
+}
+[info] [CLI] Called Query rxjs/observable-list: {
+	"result": [
+		{
+			"name": "request",
+			"label": "request()",
+			"type": "method"
+		},
+		{
+			"name": "delete",
+			"label": "delete()",
+			"type": "method"
+		},
+		{
+			"name": "get",
+			"label": "get()",
+			"type": "method"
+		},
+		{
+			"name": "head",
+			"label": "head()",
+			"type": "method"
+		},
+		{
+			"name": "jsonp",
+			"label": "jsonp()",
+			"type": "method"
+		},
+		{
+			"name": "options",
+			"label": "options()",
+			"type": "method"
+		},
+		{
+			"name": "patch",
+			"label": "patch()",
+			"type": "method"
+		},
+		{
+			"name": "post",
+			"label": "post()",
+			"type": "method"
+		},
+		{
+			"name": "put",
+			"label": "put()",
+			"type": "method"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query rxjs/observable-list"
+}
+[info] [API] Request for rxjs/add-call: {
+	"action": "rxjs/add-call",
+	"params": {
+		"entityFilePath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/services/employee.service.ts",
+		"parentMethod": "create",
+		"dependencyPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/node_modules/@angular/common/http/http.d.ts",
+		"dependencyType": "HttpClient",
+		"observableName": "post",
+		"observableType": "method"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "b2W4Su0eRGegq67s8PYSB4MTcbG2",
+			"correlationId": "au8t1EHTZP",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for rxjs/add-call"
+}
+[info] [CLI] Calling Command rxjs/add-call: {
+	"funcParams": {
+		"entityFilePath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/services/employee.service.ts",
+		"parentMethod": "create",
+		"dependencyPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/node_modules/@angular/common/http/http.d.ts",
+		"dependencyType": "HttpClient",
+		"observableName": "post",
+		"observableType": "method"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command rxjs/add-call"
+}
+[info] [CommandBus]: Dispatching command AddCallCommand: {
+	"commandName": "AddCallCommand",
+	"payload": {
+		"rootPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app",
+		"classFilePath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/services/employee.service.ts",
+		"parentMethod": "create",
+		"dependencyFilePath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/node_modules/@angular/common/http/http.d.ts",
+		"dependencyType": "HttpClient",
+		"observableName": "post",
+		"observableType": "method",
+		"allowedParamSuffixes": []
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command AddCallCommand"
+}
+[info] [CommandBus]: Handled  AddCallCommand: {
+	"commandName": "AddCallCommand",
+	"payload": {
+		"rootPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app",
+		"classFilePath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/services/employee.service.ts",
+		"parentMethod": "create",
+		"dependencyFilePath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/node_modules/@angular/common/http/http.d.ts",
+		"dependencyType": "HttpClient",
+		"observableName": "post",
+		"observableType": "method",
+		"allowedParamSuffixes": []
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  AddCallCommand"
+}
+[info] [CLI] Called Command rxjs/add-call: {
+	"message": "[CLI] Called Command rxjs/add-call",
+	"level": "info"
+}
+[info] [API] Response ok: rxjs/add-call: {
+	"result": {
+		"filePath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/services/employee.service.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: rxjs/add-call"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"position": 1064
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "b2W4Su0eRGegq67s8PYSB4MTcbG2",
+			"correlationId": "TjL1WIJCbi",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "ADD_RXJS",
+			"label": "Add RxJS",
+			"context": {
+				"parentMethod": "onFormSubmitted"
+			}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"position": 1064
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "ADD_RXJS",
+			"label": "Add RxJS",
+			"context": {
+				"parentMethod": "onFormSubmitted"
+			}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Request for constructor/parameters: {
+	"action": "constructor/parameters",
+	"params": {
+		"entityFilePath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "b2W4Su0eRGegq67s8PYSB4MTcbG2",
+			"correlationId": "TjL1WIJCbi",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for constructor/parameters"
+}
+[info] [API] Response ok: constructor/parameters: {
+	"result": [
+		{
+			"name": "_employeeService",
+			"type": "EmployeeService",
+			"isReadonly": false,
+			"scope": "private",
+			"path": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/services/employee.service.ts"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: constructor/parameters"
+}
+[info] [CLI] Calling Query constructor/parameters: {
+	"funcParams": {
+		"entityFilePath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query constructor/parameters"
+}
+[info] [CLI] Called Query constructor/parameters: {
+	"result": [
+		{
+			"name": "_employeeService",
+			"type": "EmployeeService",
+			"isReadonly": false,
+			"scope": "private",
+			"path": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/services/employee.service.ts"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query constructor/parameters"
+}
+[info] [API] Request for rxjs/observable-list: {
+	"action": "rxjs/observable-list",
+	"params": {
+		"entityPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/services/employee.service.ts",
+		"entityType": "EmployeeService"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "b2W4Su0eRGegq67s8PYSB4MTcbG2",
+			"correlationId": "TjL1WIJCbi",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for rxjs/observable-list"
+}
+[info] [API] Response ok: rxjs/observable-list: {
+	"result": [
+		{
+			"name": "getAll",
+			"label": "getAll()",
+			"type": "method"
+		},
+		{
+			"name": "create",
+			"label": "create()",
+			"type": "method"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: rxjs/observable-list"
+}
+[info] [CLI] Calling Query rxjs/observable-list: {
+	"funcParams": {
+		"entityPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/services/employee.service.ts",
+		"entityType": "EmployeeService"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query rxjs/observable-list"
+}
+[info] [CLI] Called Query rxjs/observable-list: {
+	"result": [
+		{
+			"name": "getAll",
+			"label": "getAll()",
+			"type": "method"
+		},
+		{
+			"name": "create",
+			"label": "create()",
+			"type": "method"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query rxjs/observable-list"
+}
+[info] [API] Request for rxjs/add-call: {
+	"action": "rxjs/add-call",
+	"params": {
+		"entityFilePath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"parentMethod": "onFormSubmitted",
+		"dependencyPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/services/employee.service.ts",
+		"dependencyType": "EmployeeService",
+		"observableName": "create",
+		"observableType": "method"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "b2W4Su0eRGegq67s8PYSB4MTcbG2",
+			"correlationId": "TjL1WIJCbi",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for rxjs/add-call"
+}
+[info] [CLI] Calling Command rxjs/add-call: {
+	"funcParams": {
+		"entityFilePath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"parentMethod": "onFormSubmitted",
+		"dependencyPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/services/employee.service.ts",
+		"dependencyType": "EmployeeService",
+		"observableName": "create",
+		"observableType": "method"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command rxjs/add-call"
+}
+[info] [CommandBus]: Dispatching command AddCallCommand: {
+	"commandName": "AddCallCommand",
+	"payload": {
+		"rootPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app",
+		"classFilePath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"parentMethod": "onFormSubmitted",
+		"dependencyFilePath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/services/employee.service.ts",
+		"dependencyType": "EmployeeService",
+		"observableName": "create",
+		"observableType": "method",
+		"allowedParamSuffixes": [
+			"Model",
+			"Response"
+		]
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command AddCallCommand"
+}
+[info] [CommandBus]: Handled  AddCallCommand: {
+	"commandName": "AddCallCommand",
+	"payload": {
+		"rootPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app",
+		"classFilePath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"parentMethod": "onFormSubmitted",
+		"dependencyFilePath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/services/employee.service.ts",
+		"dependencyType": "EmployeeService",
+		"observableName": "create",
+		"observableType": "method",
+		"allowedParamSuffixes": [
+			"Model",
+			"Response"
+		]
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  AddCallCommand"
+}
+[info] [CLI] Called Command rxjs/add-call: {
+	"message": "[CLI] Called Command rxjs/add-call",
+	"level": "info"
+}
+[info] [API] Response ok: rxjs/add-call: {
+	"result": {
+		"filePath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: rxjs/add-call"
+}
