@@ -1,5 +1,5 @@
 <h2>Add new employee</h2>
-<form [formGroup]="employeeForm" (ngSubmit)="onButtonClicked()">
+<form [formGroup]="employeeForm" (ngSubmit)="onButtonClicked(employeeForm.value)">
   <input class="input-employee" type="text" formControlName="name" placeholder="name">
   <input class="input-employee" type="number" formControlName="age" placeholder="age">
   <input class="input-employee" type="number" formControlName="salary" placeholder="salary">
