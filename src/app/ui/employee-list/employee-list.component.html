@@ -12,11 +12,13 @@
     <td>ID</td>
     <td>Name</td>
     <td>Email</td>
+    <td>Action</td>
   </tr>
   <tr *ngFor="let employee of data">
     <td>{{employee.personalNumber}}</td>
     <td>{{employee.name}}</td>
     <td>{{employee.mail}}</td>
+    <td><button (click)="remove(employee.personalNumber)">Remove</button></td>
   </tr>
 </table>
 
