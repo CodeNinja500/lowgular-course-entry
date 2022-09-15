@@ -52,7 +52,34 @@ body{
   //background-color: #4478A6;
   padding: 30px 0 30px 0;
   border-radius: 0 0 15px 15px;
-
+}
+#employee-table{
+  margin: 0 auto;
+  border-collapse: collapse;
+  font-size: large;
+  width: 80%;
+  max-width: 800px;
+}
+#employee-table tr:nth-child(even) td{
+  background-color: #F2F2F2;
+  padding: 10px;
+  color: #121135;
+}
+#employee-table tr:nth-child(odd) td{
+  background-color: #121135;
+  padding: 10px;
+}
+table tr:last-child td:first-child {
+  border-bottom-left-radius: 10px;
+}
+table tr:last-child td:last-child {
+  border-bottom-right-radius: 10px;
+}
+table tr:first-child td:first-child {
+  border-top-left-radius: 10px;
+}
+table tr:first-child td:last-child {
+  border-top-right-radius: 10px;
 }
 ul{
   list-style-type: none;
