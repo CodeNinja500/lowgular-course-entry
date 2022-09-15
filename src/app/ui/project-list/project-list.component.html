@@ -1,14 +1,13 @@
 <h2>Project list</h2>
 <div id="projects" *ngIf="data$ | async as data; else empty">
   <div id="project" *ngFor="let project of data">
-    <div>
+    <div id="project-content">
       {{project.id}}<br><br>
       {{project.name}}<br>
       {{project.description}}
       <br>
       <br>
     </div>
-
     <div id="project-signature">
       {{project.owner}}
     </div>

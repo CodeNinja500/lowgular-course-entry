@@ -78,15 +78,19 @@ li{
 #projects{
   margin: 0 0 0 0;
   padding: 10px 0 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
 }
 #project{
   border-radius: 10px;
   background-color: #121135;
   width: 200px;
   margin: 20px 25px 20px 25px;
-  display: inline-block;
+  //display: inline-block;
   padding: 20px 20px 20px 20px;
-  vertical-align: top;
+  //vertical-align: top;
 }
 #project-content{
 
