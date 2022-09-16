@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 h1{
-  font-size: xx-large;
+  font-size: xxx-large;
 }
 body{
   background-image: url("./assets/bg-gradient.jpg");
@@ -23,10 +23,46 @@ body{
   width: 80%;
   margin: 0 auto;
   padding: 20px 0 20px 0;
+  font-family: Arial;
   //background-color: yellow;
 }
 #container-employee-list{
-
+  text-align: center;
+}
+.warning{
+  color: darkred;
+  margin-bottom: 20px;
+  font-size: medium;
+}
+#employee-list-table{
+  margin: 0 auto;
+  font-size: large;
+  color: white;
+  width: 80%;
+  max-width: 800px;
+  padding: 10px;
+  border-collapse: collapse;
+}
+#employee-list-table tr:nth-child(odd) td{
+  background-color: #021337;
+  padding: 10px;
+}
+#employee-list-table tr:nth-child(even) td{
+  background-color: white;
+  color: #021337;
+  padding: 10px;
+}
+#employee-list-table tr:last-child td:first-child {
+  border-bottom-left-radius: 10px;
+}
+#employee-list-table tr:last-child td:last-child {
+  border-bottom-right-radius: 10px;
+}
+#employee-list-table tr:first-child td:first-child {
+  border-top-left-radius: 10px;
+}
+#employee-list-table tr:first-child td:last-child {
+  border-top-right-radius: 10px;
 }
 #container-employee-form{
 

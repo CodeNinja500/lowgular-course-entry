@@ -1,0 +1,32 @@
+<div class="warning">{{message}}</div>
+<table id="employee-list-table" *ngIf="data$ | async as data;else empty">
+  <tr>
+    <td>
+      ID
+    </td>
+    <td>
+      Name
+    </td>
+    <td>
+      Email
+    </td>
+    <td>
+      Action
+    </td>
+  </tr>
+  <tr *ngFor="let employee of data">
+    <td>
+      {{employee.id}}
+    </td>
+    <td>
+      {{employee.name}}
+    </td>
+    <td>
+      {{employee.mail}}
+    </td>
+    <td>
+      <button>Remove</button>
+    </td>
+  </tr>
+</table>
+<ng-template #empty>There is no data</ng-template>
