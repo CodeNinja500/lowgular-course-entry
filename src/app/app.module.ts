@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import {EmployeeServiceModule} from "./services/employee.service-module";
 
 @NgModule({
   declarations: [AppComponent],
@@ -10,6 +11,7 @@ import { AppComponent } from './app.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    EmployeeServiceModule
   ],
   providers: [],
   bootstrap: [AppComponent],

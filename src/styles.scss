@@ -1,1 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+h1{
+  font-size: xx-large;
+}
+body{
+  background-image: url("./assets/bg-gradient.jpg");
+  padding-top: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#header{
+  width: 80%;
+  //background-color: white;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Arial;
+  padding: 20px 0 20px 0;
+  color: white;
+}
+#content{
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0 20px 0;
+  //background-color: yellow;
+}
+#container-employee-list{
+
+}
+#container-employee-form{
+
+}
+#footer{
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0 20px 0;
+  //background-color: blue;
+}
