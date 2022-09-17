@@ -1,7 +1,7 @@
 import { ChangeDetectionStrategy, Component, ViewEncapsulation } from '@angular/core';
+import { Observable } from 'rxjs';
 import { EmployeeService } from '../../services/employee.service';
-import { PersonModel } from "../../model/person.model";
-import { Observable } from "rxjs";
+import { PersonModel } from '../../model/person.model';
 
 @Component({
   selector: 'employee-list',
@@ -10,9 +10,12 @@ import { Observable } from "rxjs";
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class EmployeeListComponent {
-  constructor(private _employeeService: EmployeeService) {}
+  constructor(private _employeeService: EmployeeService) { }
 
   message: string = "Do not distribute the list";
   data$: Observable<PersonModel[] | null> = this._employeeService.getAll();
 
+  remove(id: string) {
+    this._employeeService.delete(id).subscribe();
+  }
 }

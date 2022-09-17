@@ -3,8 +3,8 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { PersonModel } from '../model/person.model';
-import { ApiResponse} from "./api.response";
-import { EmployeeResponse} from "./employee.response";
+import { ApiResponse } from './api.response';
+import { EmployeeResponse } from './employee.response';
 
 @Injectable()
 export class EmployeeService {
@@ -23,5 +23,8 @@ export class EmployeeService {
           }
         });
       }));
+  }
+  delete(id: string): Observable<any> {
+    return this._httpClient.delete('https://dummy.restapiexample.com/api/v1/delete/'+ id).pipe(map(_ => void 0));
   }
 }
