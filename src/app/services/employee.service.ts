@@ -18,7 +18,7 @@ export class EmployeeService {
           return {
             name: employeeResponse.employee_name,
             id: employeeResponse.id,
-            mail: employeeResponse.employee_name + "lowgular.io",
+            mail: employeeResponse.employee_name + "@lowgular.io",
             img: employeeResponse.profile_image
           }
         });
