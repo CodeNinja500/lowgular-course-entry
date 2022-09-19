@@ -30,13 +30,14 @@ body{
   //background-color: yellow;
 }
 #container-employee-list{
-  //text-align: center;
+  width : 100%
 }
 .warning{
   color: darkred;
   margin-bottom: 20px;
   font-size: medium;
 }
+
 #employee-list-table{
   margin: 0 auto;
   font-size: large;
@@ -67,7 +68,35 @@ body{
   border-top-right-radius: 10px;
 }
 #container-employee-form{
-
+  margin-top: 20px;
+  width: 100%;
+}
+#employee-form{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+#employee-form input[type="text"]{
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  font-size: large;
+  margin: 10px 0 0 0;
+}
+#employee-form input[type="number"]{
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  font-size: large;
+  margin: 10px 0 0 0;
+}
+#employee-form input[type="submit"]{
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  font-size: large;
+  margin: 10px 0 0 0;
 }
 #footer{
   width: 80%;
