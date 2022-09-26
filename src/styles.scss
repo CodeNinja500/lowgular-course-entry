@@ -22,7 +22,7 @@ body{
   max-width: 800px;
 }
 #content{
-  width: 80%;
+  width: 95%;
   margin: 0 auto;
   padding: 20px 0 20px 0;
   font-family: Arial;
@@ -30,7 +30,8 @@ body{
   //background-color: yellow;
 }
 #container-employee-list{
-  width : 100%
+  width : 100%;
+  text-align: center;
 }
 .warning{
   color: darkred;
@@ -40,11 +41,42 @@ body{
 
 #employee-list-table{
   margin: 0 auto;
-  font-size: large;
+  font-size: small;
   color: white;
   width: 100%;
   padding: 10px;
   border-collapse: collapse;
+}
+#employee-list-table button{
+  border: none;
+  font-size: small;
+  border-radius: 8px;
+}
+@media (min-device-width: 530px) {
+  #employee-list-table button {
+    font-size: medium;
+  }
+  #employee-list-table{
+    font-size: large;
+  }
+  #content{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0 20px 0;
+    font-family: Arial;
+    max-width: 800px;
+    //background-color: yellow;
+  }
+  #employee-form{
+    display: flex;
+    gap: 2%;
+  }
+  #employee-form input{
+    width: auto;
+  }
+  #container-employee-list{
+    text-align: left;
+  }
 }
 #employee-list-table tr:nth-child(odd) td{
   background-color: #021337;
@@ -72,30 +104,27 @@ body{
   width: 100%;
 }
 #employee-form{
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+  font-size: medium;
 }
 #employee-form input[type="text"]{
+  width: 100%;
   padding: 5px;
   border-radius: 10px;
   border: none;
-  font-size: large;
   margin: 10px 0 0 0;
 }
 #employee-form input[type="number"]{
+  width: 100%;
   padding: 5px;
   border-radius: 10px;
   border: none;
-  font-size: large;
   margin: 10px 0 0 0;
 }
 #employee-form input[type="submit"]{
+  width: 100%;
   padding: 5px;
   border-radius: 10px;
   border: none;
-  font-size: large;
   margin: 10px 0 0 0;
 }
 #footer{
