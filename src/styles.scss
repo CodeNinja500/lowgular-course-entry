@@ -1,37 +1,59 @@
 /* You can add global styles to this file, and also import other style files */
 h1{
-  font-size: xxx-large;
+  font-size: 2.5rem;
+}
+#app-title{
+  font-size: 2.5rem;
+  font-family: 'DM Serif Display', serif;
 }
 body{
   background-image: url("./assets/bg-gradient.jpg");
-  padding-top: 30px;
+  padding: 2rem 1rem 3rem 1rem;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
   color: white;
 }
-#header{
-  width: 80%;
-  //background-color: white;
-  margin: 0 auto;
-  text-align: center;
-  font-family: Arial;
-  padding: 20px 0 20px 0;
-  color: white;
-  max-width: 800px;
+#container-home-page{
+  padding: 2rem;
+  margin-top: 9rem;
 }
-#content{
-  width: 95%;
-  margin: 0 auto;
-  padding: 20px 0 20px 0;
-  font-family: Arial;
-  max-width: 800px;
-  //background-color: yellow;
+.button-home-page{
+  text-align: center;
+  background-color: white;
+  color: #021337;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+.button-home-page:hover{
+  cursor: default;
+  background-color: #e2e2e2;
 }
 #container-employee-list{
-  width : 100%;
-  text-align: center;
+  padding: 2rem;
+}
+#container-employee-form{
+  padding: 2rem;
+}
+.navbar{
+  padding: 0 3rem 0 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-left{
+  width: 3rem;
+}
+.navbar-center{
+
+}
+.navbar-right{
+  width: 3rem;
+}
+#home-icon:hover path{
+  fill: darkred;
 }
 .warning{
   color: darkred;
@@ -63,7 +85,6 @@ body{
     width: 80%;
     margin: 0 auto;
     padding: 20px 0 20px 0;
-    font-family: Arial;
     max-width: 800px;
     //background-color: yellow;
   }
@@ -99,10 +120,7 @@ body{
 #employee-list-table tr:first-child td:last-child {
   border-top-right-radius: 10px;
 }
-#container-employee-form{
-  margin-top: 20px;
-  width: 100%;
-}
+
 #employee-form{
   font-size: medium;
 }

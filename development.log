@@ -20552,3 +20552,1294 @@
 	"level": "info",
 	"message": "[API] Response ok: entity/list"
 }
+[info] [API] Request for projects/list: {
+	"action": "projects/list",
+	"params": {
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/app.component.html"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "b2W4Su0eRGegq67s8PYSB4MTcbG2",
+			"correlationId": "tgvjYT5rzK",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for projects/list"
+}
+[info] [CLI] Calling Query projects/list: {
+	"funcParams": {
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/app.component.html"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query projects/list"
+}
+[info] [CLI] Called Query projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[CLI] Called Query projects/list"
+}
+[info] [API] Response ok: projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[API] Response ok: projects/list"
+}
+[info] [API] Request for entity/list: {
+	"action": "entity/list",
+	"params": {
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "b2W4Su0eRGegq67s8PYSB4MTcbG2",
+			"correlationId": "tgvjYT5rzK",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/list"
+}
+[info] [CLI] Calling Query entity/list: {
+	"funcParams": {
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/list"
+}
+[info] [CLI] Called Query entity/list: {
+	"result": [
+		{
+			"id": "component",
+			"type": "ANGULAR_COMPONENT",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App",
+			"config": {
+				"stylesExtension": "none",
+				"viewEncapsulation": "Emulated",
+				"selector": "generated",
+				"changeDetectionStrategy": "OnPush"
+			}
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		},
+		{
+			"id": "response",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Response",
+			"folder": "services",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/list"
+}
+[info] [API] Response ok: entity/list: {
+	"result": [
+		{
+			"id": "component",
+			"type": "ANGULAR_COMPONENT",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App",
+			"config": {
+				"stylesExtension": "none",
+				"viewEncapsulation": "Emulated",
+				"selector": "generated",
+				"changeDetectionStrategy": "OnPush"
+			}
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		},
+		{
+			"id": "response",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Response",
+			"folder": "services",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/list"
+}
+[info] [API] Request for angular-component/create: {
+	"action": "angular-component/create",
+	"params": {
+		"name": "main",
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/app.component.html",
+		"entityId": "component"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "b2W4Su0eRGegq67s8PYSB4MTcbG2",
+			"correlationId": "tgvjYT5rzK",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular-component/create"
+}
+[info] [CLI] Calling Command angular-component/create: {
+	"funcParams": {
+		"name": "main",
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/app.component.html",
+		"entityId": "component"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command angular-component/create"
+}
+[info] [CommandBus]: Dispatching command COMPONENT_CREATE_SMART_COMPONENT: {
+	"commandName": "COMPONENT_CREATE_SMART_COMPONENT",
+	"payload": {
+		"name": "main",
+		"prefix": "app",
+		"suffix": "Component",
+		"absoluteFolderPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/main",
+		"config": {
+			"stylesExtension": "none",
+			"viewEncapsulation": "Emulated",
+			"selector": "generated",
+			"changeDetectionStrategy": "OnPush"
+		}
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command COMPONENT_CREATE_SMART_COMPONENT"
+}
+[warn] [TsMorphFileAdapter]: File Not Found, creating...: {
+	"filePath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/main/main.component.html",
+	"level": "warn",
+	"message": "[TsMorphFileAdapter]: File Not Found, creating..."
+}
+[info] [EventBus]: Broadcasting event COMPONENT_SMART_COMPONENT_CREATED: {
+	"type": "COMPONENT_SMART_COMPONENT_CREATED",
+	"payload": {
+		"createdFile": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/main/main.component.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasting event COMPONENT_SMART_COMPONENT_CREATED"
+}
+[info] [CommandBus]: Dispatching command CREATE_COMPONENT_MODULE: {
+	"commandName": "CREATE_COMPONENT_MODULE",
+	"payload": {
+		"moduleFilePath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/main/main.component-module.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command CREATE_COMPONENT_MODULE"
+}
+[info] [EventBus]: Broadcasted COMPONENT_SMART_COMPONENT_CREATED: {
+	"event": {
+		"createdFile": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/main/main.component.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasted COMPONENT_SMART_COMPONENT_CREATED"
+}
+[info] [EventBus]: Broadcasting event MODULE_MODULE_CREATED: {
+	"type": "MODULE_MODULE_CREATED",
+	"payload": {
+		"moduleFile": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/main/main.component-module.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasting event MODULE_MODULE_CREATED"
+}
+[info] [EventBus]: Broadcasted MODULE_MODULE_CREATED: {
+	"event": {
+		"moduleFile": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/main/main.component-module.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasted MODULE_MODULE_CREATED"
+}
+[info] [CommandBus]: Handled  CREATE_COMPONENT_MODULE: {
+	"commandName": "CREATE_COMPONENT_MODULE",
+	"payload": {
+		"moduleFilePath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/main/main.component-module.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  CREATE_COMPONENT_MODULE"
+}
+[info] [CommandBus]: Handled  COMPONENT_CREATE_SMART_COMPONENT: {
+	"commandName": "COMPONENT_CREATE_SMART_COMPONENT",
+	"payload": {
+		"name": "main",
+		"prefix": "app",
+		"suffix": "Component",
+		"absoluteFolderPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/main",
+		"config": {
+			"stylesExtension": "none",
+			"viewEncapsulation": "Emulated",
+			"selector": "generated",
+			"changeDetectionStrategy": "OnPush"
+		}
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  COMPONENT_CREATE_SMART_COMPONENT"
+}
+[info] [CLI] Called Command angular-component/create: {
+	"message": "[CLI] Called Command angular-component/create",
+	"level": "info"
+}
+[info] [API] Response ok: angular-component/create: {
+	"result": {
+		"filePath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/main/main.component.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: angular-component/create"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/main/main.component.html",
+		"position": 14
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "b2W4Su0eRGegq67s8PYSB4MTcbG2",
+			"correlationId": "3jAobdz5KO",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "ADD_FORM",
+			"label": "Add Form",
+			"context": {}
+		},
+		{
+			"id": "ADD_COMPONENT",
+			"label": "Add Component",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/main/main.component.html",
+		"position": 14
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "ADD_FORM",
+			"label": "Add Form",
+			"context": {}
+		},
+		{
+			"id": "ADD_COMPONENT",
+			"label": "Add Component",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/main/main.component.html",
+		"position": 14
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "b2W4Su0eRGegq67s8PYSB4MTcbG2",
+			"correlationId": "74nBXmMbGs",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/main/main.component.html",
+		"position": 14
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "ADD_FORM",
+			"label": "Add Form",
+			"context": {}
+		},
+		{
+			"id": "ADD_COMPONENT",
+			"label": "Add Component",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "ADD_FORM",
+			"label": "Add Form",
+			"context": {}
+		},
+		{
+			"id": "ADD_COMPONENT",
+			"label": "Add Component",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Request for projects/list: {
+	"action": "projects/list",
+	"params": {
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/main/main.component.html"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "b2W4Su0eRGegq67s8PYSB4MTcbG2",
+			"correlationId": "05MYmB-w6H",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for projects/list"
+}
+[info] [CLI] Calling Query projects/list: {
+	"funcParams": {
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/main/main.component.html"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query projects/list"
+}
+[info] [CLI] Called Query projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[CLI] Called Query projects/list"
+}
+[info] [API] Response ok: projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[API] Response ok: projects/list"
+}
+[info] [API] Request for entity/list: {
+	"action": "entity/list",
+	"params": {
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "b2W4Su0eRGegq67s8PYSB4MTcbG2",
+			"correlationId": "05MYmB-w6H",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/list"
+}
+[info] [CLI] Calling Query entity/list: {
+	"funcParams": {
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/list"
+}
+[info] [CLI] Called Query entity/list: {
+	"result": [
+		{
+			"id": "component",
+			"type": "ANGULAR_COMPONENT",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App",
+			"config": {
+				"stylesExtension": "none",
+				"viewEncapsulation": "Emulated",
+				"selector": "generated",
+				"changeDetectionStrategy": "OnPush"
+			}
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		},
+		{
+			"id": "response",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Response",
+			"folder": "services",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/list"
+}
+[info] [API] Response ok: entity/list: {
+	"result": [
+		{
+			"id": "component",
+			"type": "ANGULAR_COMPONENT",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App",
+			"config": {
+				"stylesExtension": "none",
+				"viewEncapsulation": "Emulated",
+				"selector": "generated",
+				"changeDetectionStrategy": "OnPush"
+			}
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		},
+		{
+			"id": "response",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Response",
+			"folder": "services",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/list"
+}
+[info] [API] Request for projects/list: {
+	"action": "projects/list",
+	"params": {
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "b2W4Su0eRGegq67s8PYSB4MTcbG2",
+			"correlationId": "N14QNGQ9Y0",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for projects/list"
+}
+[info] [CLI] Calling Query projects/list: {
+	"funcParams": {
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query projects/list"
+}
+[info] [CLI] Called Query projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[CLI] Called Query projects/list"
+}
+[info] [API] Response ok: projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[API] Response ok: projects/list"
+}
+[info] [API] Request for entity/list: {
+	"action": "entity/list",
+	"params": {
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "b2W4Su0eRGegq67s8PYSB4MTcbG2",
+			"correlationId": "N14QNGQ9Y0",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/list"
+}
+[info] [CLI] Calling Query entity/list: {
+	"funcParams": {
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/list"
+}
+[info] [CLI] Called Query entity/list: {
+	"result": [
+		{
+			"id": "component",
+			"type": "ANGULAR_COMPONENT",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App",
+			"config": {
+				"stylesExtension": "none",
+				"viewEncapsulation": "Emulated",
+				"selector": "generated",
+				"changeDetectionStrategy": "OnPush"
+			}
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		},
+		{
+			"id": "response",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Response",
+			"folder": "services",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/list"
+}
+[info] [API] Response ok: entity/list: {
+	"result": [
+		{
+			"id": "component",
+			"type": "ANGULAR_COMPONENT",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App",
+			"config": {
+				"stylesExtension": "none",
+				"viewEncapsulation": "Emulated",
+				"selector": "generated",
+				"changeDetectionStrategy": "OnPush"
+			}
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		},
+		{
+			"id": "response",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Response",
+			"folder": "services",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/list"
+}
+[info] [API] Request for angular-component/create: {
+	"action": "angular-component/create",
+	"params": {
+		"name": "home",
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui",
+		"entityId": "component"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "b2W4Su0eRGegq67s8PYSB4MTcbG2",
+			"correlationId": "N14QNGQ9Y0",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular-component/create"
+}
+[info] [CLI] Calling Command angular-component/create: {
+	"funcParams": {
+		"name": "home",
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui",
+		"entityId": "component"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command angular-component/create"
+}
+[info] [CommandBus]: Dispatching command COMPONENT_CREATE_SMART_COMPONENT: {
+	"commandName": "COMPONENT_CREATE_SMART_COMPONENT",
+	"payload": {
+		"name": "home",
+		"prefix": "app",
+		"suffix": "Component",
+		"absoluteFolderPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/home",
+		"config": {
+			"stylesExtension": "none",
+			"viewEncapsulation": "Emulated",
+			"selector": "generated",
+			"changeDetectionStrategy": "OnPush"
+		}
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command COMPONENT_CREATE_SMART_COMPONENT"
+}
+[warn] [TsMorphFileAdapter]: File Not Found, creating...: {
+	"filePath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/home/home.component.html",
+	"level": "warn",
+	"message": "[TsMorphFileAdapter]: File Not Found, creating..."
+}
+[info] [CommandBus]: Dispatching command CREATE_COMPONENT_MODULE: {
+	"commandName": "CREATE_COMPONENT_MODULE",
+	"payload": {
+		"moduleFilePath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/home/home.component-module.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command CREATE_COMPONENT_MODULE"
+}
+[info] [EventBus]: Broadcasting event COMPONENT_SMART_COMPONENT_CREATED: {
+	"type": "COMPONENT_SMART_COMPONENT_CREATED",
+	"payload": {
+		"createdFile": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/home/home.component.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasting event COMPONENT_SMART_COMPONENT_CREATED"
+}
+[info] [EventBus]: Broadcasted COMPONENT_SMART_COMPONENT_CREATED: {
+	"event": {
+		"createdFile": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/home/home.component.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasted COMPONENT_SMART_COMPONENT_CREATED"
+}
+[info] [EventBus]: Broadcasting event MODULE_MODULE_CREATED: {
+	"type": "MODULE_MODULE_CREATED",
+	"payload": {
+		"moduleFile": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/home/home.component-module.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasting event MODULE_MODULE_CREATED"
+}
+[info] [EventBus]: Broadcasted MODULE_MODULE_CREATED: {
+	"event": {
+		"moduleFile": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/home/home.component-module.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasted MODULE_MODULE_CREATED"
+}
+[info] [CommandBus]: Handled  CREATE_COMPONENT_MODULE: {
+	"commandName": "CREATE_COMPONENT_MODULE",
+	"payload": {
+		"moduleFilePath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/home/home.component-module.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  CREATE_COMPONENT_MODULE"
+}
+[info] [CommandBus]: Handled  COMPONENT_CREATE_SMART_COMPONENT: {
+	"commandName": "COMPONENT_CREATE_SMART_COMPONENT",
+	"payload": {
+		"name": "home",
+		"prefix": "app",
+		"suffix": "Component",
+		"absoluteFolderPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/home",
+		"config": {
+			"stylesExtension": "none",
+			"viewEncapsulation": "Emulated",
+			"selector": "generated",
+			"changeDetectionStrategy": "OnPush"
+		}
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  COMPONENT_CREATE_SMART_COMPONENT"
+}
+[info] [CLI] Called Command angular-component/create: {
+	"message": "[CLI] Called Command angular-component/create",
+	"level": "info"
+}
+[info] [API] Response ok: angular-component/create: {
+	"result": {
+		"filePath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/home/home.component.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: angular-component/create"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/home/home.component.ts",
+		"position": 293
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "b2W4Su0eRGegq67s8PYSB4MTcbG2",
+			"correlationId": "mIeoEhi3ey",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/home/home.component.ts",
+		"position": 293
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/home/home.component.ts",
+		"position": 276
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "b2W4Su0eRGegq67s8PYSB4MTcbG2",
+			"correlationId": "2vZhbM6f62",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/home/home.component.ts",
+		"position": 276
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/home/home.component.ts",
+		"position": 276
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "b2W4Su0eRGegq67s8PYSB4MTcbG2",
+			"correlationId": "nTHxmpaQfQ",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/home/home.component.ts",
+		"position": 276
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Request for injectable/list: {
+	"action": "injectable/list",
+	"params": {
+		"entityFilePath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/home/home.component.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "b2W4Su0eRGegq67s8PYSB4MTcbG2",
+			"correlationId": "nTHxmpaQfQ",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/list"
+}
+[info] [CLI] Calling Query injectable/list: {
+	"funcParams": {
+		"entityFilePath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/home/home.component.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query injectable/list"
+}
+[info] [CLI] Called Query injectable/list: {
+	"result": [
+		{
+			"file": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/services/employee.service.ts",
+			"name": "EmployeeService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query injectable/list"
+}
+[info] [API] Response ok: injectable/list: {
+	"result": [
+		{
+			"file": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/services/employee.service.ts",
+			"name": "EmployeeService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: injectable/list"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/home/home.component-module.ts",
+		"position": 297
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "b2W4Su0eRGegq67s8PYSB4MTcbG2",
+			"correlationId": "MLYo4S0cvM",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/home/home.component-module.ts",
+		"position": 297
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[error] [API]: Error Entity not found for suffix: component-module: {
+	"loggerData": {
+		"action": "entity/actions",
+		"params": {
+			"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/home/home.component-module.ts",
+			"position": 297
+		},
+		"context": {
+			"workspace": {
+				"rootPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry"
+			},
+			"userContext": {
+				"id": "b2W4Su0eRGegq67s8PYSB4MTcbG2",
+				"correlationId": "MLYo4S0cvM",
+				"logEnvId": "development"
+			}
+		}
+	},
+	"error": {},
+	"stack": "Error: Entity not found for suffix: component-module\n    at getEntityActions (C:\\Users\\macie\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:8904:15)\n    at async callQueryCli (C:\\Users\\macie\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:10144:20)\n    at async callHandler (C:\\Users\\macie\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:2601:27)",
+	"level": "error",
+	"message": "[API]: Error Entity not found for suffix: component-module"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/home/home.component-module.ts",
+		"position": 297
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "b2W4Su0eRGegq67s8PYSB4MTcbG2",
+			"correlationId": "DJMKudSxGv",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/home/home.component-module.ts",
+		"position": 297
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[error] [API]: Error Entity not found for suffix: component-module: {
+	"loggerData": {
+		"action": "entity/actions",
+		"params": {
+			"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/home/home.component-module.ts",
+			"position": 297
+		},
+		"context": {
+			"workspace": {
+				"rootPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry"
+			},
+			"userContext": {
+				"id": "b2W4Su0eRGegq67s8PYSB4MTcbG2",
+				"correlationId": "DJMKudSxGv",
+				"logEnvId": "development"
+			}
+		}
+	},
+	"error": {},
+	"stack": "Error: Entity not found for suffix: component-module\n    at getEntityActions (C:\\Users\\macie\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:8904:15)\n    at async callQueryCli (C:\\Users\\macie\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:10144:20)\n    at async callHandler (C:\\Users\\macie\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:2601:27)",
+	"level": "error",
+	"message": "[API]: Error Entity not found for suffix: component-module"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/home/home.component.ts",
+		"position": 294
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "b2W4Su0eRGegq67s8PYSB4MTcbG2",
+			"correlationId": "f0QV43yTbC",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/home/home.component.ts",
+		"position": 294
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Request for injectable/list: {
+	"action": "injectable/list",
+	"params": {
+		"entityFilePath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/home/home.component.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "b2W4Su0eRGegq67s8PYSB4MTcbG2",
+			"correlationId": "f0QV43yTbC",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/list"
+}
+[info] [CLI] Calling Query injectable/list: {
+	"funcParams": {
+		"entityFilePath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/home/home.component.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query injectable/list"
+}
+[info] [CLI] Called Query injectable/list: {
+	"result": [
+		{
+			"file": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/services/employee.service.ts",
+			"name": "EmployeeService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query injectable/list"
+}
+[info] [API] Response ok: injectable/list: {
+	"result": [
+		{
+			"file": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/services/employee.service.ts",
+			"name": "EmployeeService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: injectable/list"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"position": 784
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "b2W4Su0eRGegq67s8PYSB4MTcbG2",
+			"correlationId": "LFKSsC8hFe",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "C:/Users/macie/Lowgular/Projekty/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"position": 784
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
