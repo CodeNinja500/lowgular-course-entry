@@ -2,6 +2,9 @@
 h1{
   font-size: 2.5rem;
 }
+h2{
+  color: white;
+}
 body{
   background-image: url("./assets/bg-gradient.jpg");
   padding: 2rem 1rem 3rem 1rem;
@@ -13,23 +16,12 @@ body{
 }
 //------------------------- NAVIGATION -----------------------------
 #app-title{
-   font-size: 2.5rem;
-   font-family: 'DM Serif Display', serif;
+  font-size: 2.5rem;
+  font-family: 'DM Serif Display', serif;
+  color: white;
 }
-.navbar{
-  padding: 0 1rem 0 1rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.navbar-left{
-
-}
-.navbar-right{
-  width: 3rem;
-}
-#home-icon:hover path{
-  fill: darkred;
+.navbar-container{
+  padding: 0 2rem 0 2rem;
 }
 //----------------------------HOME PAGE--------------------------------
 #container-home-page{
