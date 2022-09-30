@@ -2,10 +2,6 @@
 h1{
   font-size: 2.5rem;
 }
-#app-title{
-  font-size: 2.5rem;
-  font-family: 'DM Serif Display', serif;
-}
 body{
   background-image: url("./assets/bg-gradient.jpg");
   padding: 2rem 1rem 3rem 1rem;
@@ -15,6 +11,27 @@ body{
   background-size: cover;
   color: white;
 }
+//------------------------- NAVIGATION -----------------------------
+#app-title{
+   font-size: 2.5rem;
+   font-family: 'DM Serif Display', serif;
+}
+.navbar{
+  padding: 0 1rem 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-left{
+
+}
+.navbar-right{
+  width: 3rem;
+}
+#home-icon:hover path{
+  fill: darkred;
+}
+//----------------------------HOME PAGE--------------------------------
 #container-home-page{
   padding: 2rem;
   margin-top: 9rem;
@@ -31,82 +48,63 @@ body{
 .button-home-page:hover{
   cursor: default;
   background-color: #e2e2e2;
+  font-weight: bold;
 }
-#container-employee-list{
-  padding: 2rem;
-}
+//--------------------------- EMPLOYEE FORM----------------------------
 #container-employee-form{
+  text-align: center;
+  margin-top: 7rem;
+  display: block;
   padding: 2rem;
 }
-.navbar{
-  padding: 0 3rem 0 3rem;
-  display: flex;
-  justify-content: space-between;
+#container-employee-form input{
+  width: 100%;
+  margin-bottom: 0.5rem;
+  padding: 0.3rem;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 5px;
+  border: none;
 }
-.navbar-left{
-  width: 3rem;
-}
-.navbar-center{
-
-}
-.navbar-right{
-  width: 3rem;
-}
-#home-icon:hover path{
-  fill: darkred;
+//-------------------------- EMPLOYEE LIST ----------------------------
+#container-employee-list{
+  padding: 2rem 1rem 2rem 1rem;
+  font-family: 'Roboto', sans-serif;
 }
 .warning{
   color: darkred;
   margin-bottom: 20px;
   font-size: medium;
 }
-
 #employee-list-table{
   margin: 0 auto;
   font-size: small;
   color: white;
   width: 100%;
-  padding: 10px;
   border-collapse: collapse;
 }
-#employee-list-table button{
-  border: none;
-  font-size: small;
-  border-radius: 8px;
+#minus-icon{
+  width: 1.5rem;
+  height: 1.5rem;
 }
-@media (min-device-width: 530px) {
-  #employee-list-table button {
-    font-size: medium;
-  }
-  #employee-list-table{
-    font-size: large;
-  }
-  #content{
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px 0 20px 0;
-    max-width: 800px;
-    //background-color: yellow;
-  }
-  #employee-form{
-    display: flex;
-    gap: 2%;
-  }
-  #employee-form input{
-    width: auto;
-  }
-  #container-employee-list{
-    text-align: left;
-  }
+#minus-icon:hover{
+  color: darkred;
+}
+#employee-list-table tr td{
+  padding: 0.5rem 0.1rem 0.5rem 0.1rem;
 }
 #employee-list-table tr:nth-child(odd) td{
   background-color: #021337;
-  padding: 10px;
 }
 #employee-list-table tr:nth-child(even) td{
   background-color: white;
   color: #021337;
-  padding: 10px;
+}
+.action-td{
+  text-align: center;
+}
+.id-td{
+  text-align: center;
+  width: 2rem;
 }
 #employee-list-table tr:last-child td:first-child {
   border-bottom-left-radius: 10px;
@@ -120,34 +118,4 @@ body{
 #employee-list-table tr:first-child td:last-child {
   border-top-right-radius: 10px;
 }
-
-#employee-form{
-  font-size: medium;
-}
-#employee-form input[type="text"]{
-  width: 100%;
-  padding: 5px;
-  border-radius: 10px;
-  border: none;
-  margin: 10px 0 0 0;
-}
-#employee-form input[type="number"]{
-  width: 100%;
-  padding: 5px;
-  border-radius: 10px;
-  border: none;
-  margin: 10px 0 0 0;
-}
-#employee-form input[type="submit"]{
-  width: 100%;
-  padding: 5px;
-  border-radius: 10px;
-  border: none;
-  margin: 10px 0 0 0;
-}
-#footer{
-  width: 80%;
-  margin: 0 auto;
-  padding: 20px 0 20px 0;
-  //background-color: blue;
-}
+//---------------------------------------------------------------------
