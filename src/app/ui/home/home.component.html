@@ -1,5 +1,13 @@
 <div id="container-home-page">
-  <div class="button-home-page" routerLink="/employee-list" (click)="changeView()">Employee list</div>
-  <div class="button-home-page" routerLink="/create-employee" (click)="changeView()">Add employee</div>
+  <div id="buttons-container">
+    <div class="button-home-page" routerLink="/employee-list" (click)="changeView()">
+      <img src="assets/list.svg">
+      Employee list
+    </div>
+    <div class="button-home-page" routerLink="/create-employee" (click)="changeView()">
+      <img src="assets/new-user.svg">
+      Create employee
+    </div>
+  </div>
 </div>
 

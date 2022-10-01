@@ -5,6 +5,9 @@ h1{
 h2{
   color: white;
 }
+html{
+  height: 100%;
+}
 body{
   background-image: url("./assets/bg-gradient.jpg");
   background-repeat: no-repeat;
@@ -12,8 +15,9 @@ body{
   background-attachment: fixed;
   background-size: cover;
   color: white;
+  height: 85%;
 }
-//------------------------- NAVIGATION -----------------------------
+//------------------------- NAVIGATION AND FOOTER-----------------------------
 #app-title{
   font-size: 2.5rem;
   font-family: 'DM Serif Display', serif;
@@ -26,7 +30,7 @@ body{
   width: 1.5rem;
   height: 1.5rem;
   position: relative;
-  transition: .5s ease-in-out;
+  transition: .25s ease-in-out;
 }
 .navbar-toggler:hover .toggler-icon{
   background-color: darkred;
@@ -104,6 +108,7 @@ body{
 }
 .footer-right{
   display: flex;
+  align-items: center;
   gap: 0.5rem;
   opacity: 0.8;
 }
@@ -121,8 +126,25 @@ body{
 }
 //----------------------------HOME PAGE--------------------------------
 #container-home-page{
-  padding: 2rem;
-  margin-top: 9rem;
+  height: 100%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+#buttons-container{
+  position: relative;
+  top: 50%;
+  transform: translateY(-100%);
+  display: block;
+  width: 100%;
+}
+@media (min-width: 576px) {
+  #buttons-container{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    width: 100%;
+    transform: translateY(-60%);
+  }
 }
 .button-home-page{
   text-align: center;
@@ -133,30 +155,62 @@ body{
   border-radius: 5px;
   font-family: 'Roboto', sans-serif;
 }
+@media (min-width: 576px) {
+  .button-home-page{
+    border-radius: 20px;
+    padding: 1rem;
+    width: 11rem;
+    height: 11rem;
+  }
+}
 .button-home-page:hover{
   cursor: default;
   background-color: #e2e2e2;
-  font-weight: bold;
+}
+.button-home-page img{
+  display: none;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 576px) {
+  .button-home-page img{
+    display: block;
+    width: 7rem;
+    margin-bottom: 0.4rem;
+  }
 }
 //--------------------------- EMPLOYEE FORM----------------------------
 #container-employee-form{
   text-align: center;
   margin-top: 7rem;
-  display: block;
   padding: 2rem;
 }
 #container-employee-form input{
-  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
   margin-bottom: 0.5rem;
+  width: 100%;
+  display: block;
+  max-width: 400px;
   padding: 0.3rem;
   font-family: 'Roboto', sans-serif;
   border-radius: 5px;
   border: none;
+  transition: .25s ease-in-out;
+}
+@media (min-width: 576px) {
+  #container-employee-form input {
+    margin-top: 1.3rem;
+    margin-bottom: 1.3rem;
+    padding: 0.8rem;
+    transition: .25s ease-in-out;
+  }
 }
 //-------------------------- EMPLOYEE LIST ----------------------------
 #container-employee-list{
-  padding: 2rem;
+  padding: 2rem 2rem 4rem 2rem;
   font-family: 'Roboto', sans-serif;
+  text-align: center;
 }
 .warning{
   color: darkred;
@@ -168,6 +222,7 @@ body{
   font-size: small;
   color: white;
   width: 100%;
+  max-width: 800px;
   border-collapse: collapse;
 }
 #minus-icon{
@@ -176,6 +231,7 @@ body{
 }
 #minus-icon:hover{
   color: darkred;
+  cursor: pointer;
 }
 #employee-list-table tr td{
   padding: 0.5rem 0.1rem 0.5rem 0.1rem;
