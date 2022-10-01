@@ -7,7 +7,6 @@ h2{
 }
 body{
   background-image: url("./assets/bg-gradient.jpg");
-  padding: 2rem 1rem 3rem 1rem;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -21,7 +20,104 @@ body{
   color: white;
 }
 .navbar-container{
-  padding: 0 2rem 0 2rem;
+  padding: 0 1.2rem 0 1.2rem;
+}
+.navbar-toggler{
+  width: 1.5rem;
+  height: 1.5rem;
+  position: relative;
+  transition: .5s ease-in-out;
+}
+.navbar-toggler:hover .toggler-icon{
+  background-color: darkred;
+}
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+  border: 0;
+}
+.navbar-toggler span{
+  margin: 0;
+  padding: 0;
+}
+.toggler-icon {
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  border-radius: 1px;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg);
+  transition: .25s ease-in-out;
+}
+.middle-bar{
+  margin-top: 0;
+
+}
+//when navigation is clicked
+.navbar-toggler .top-bar{
+  margin-top: 0;
+  transform: rotate(135deg);
+}
+.navbar-toggler .middle-bar{
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.navbar-toggler .bottom-bar{
+  margin-top: 0;
+  transform: rotate(-135deg);
+}
+//state when the navbar is collapsed
+.navbar-toggler.collapsed .top-bar{
+  margin-top: -1rem;
+  transform: rotate(0deg);
+}
+.navbar-toggler.collapsed .middle-bar{
+  opacity: 1;
+  filter: alpha(opacity=1);
+}
+.navbar-toggler.collapsed .bottom-bar{
+  margin-top: 1rem;
+  transform: rotate(0deg);
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.5rem 8% 0.5rem 8%;
+  background-color: rgba(10,10,55,1);
+  font-family: 'Roboto', sans-serif;
+  font-size: small;
+}
+.footer-left{
+  opacity: 0.8;
+}
+.footer-right{
+  display: flex;
+  gap: 0.5rem;
+  opacity: 0.8;
+}
+.footer a:link,
+.footer a:visited,
+.footer a:hover,
+.footer a:active{
+  text-decoration: none;
+}
+.footer a:visited{
+  color: inherit;
+}
+.footer a:hover{
+  color: darkred;
 }
 //----------------------------HOME PAGE--------------------------------
 #container-home-page{
@@ -59,7 +155,7 @@ body{
 }
 //-------------------------- EMPLOYEE LIST ----------------------------
 #container-employee-list{
-  padding: 2rem 1rem 2rem 1rem;
+  padding: 2rem;
   font-family: 'Roboto', sans-serif;
 }
 .warning{

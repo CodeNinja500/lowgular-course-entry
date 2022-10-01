@@ -1,20 +1,28 @@
 <div class="navbar-container">
-  <nav class="navbar navbar-expand-lg navbar-dark">
+  <nav class="navbar navbar-expand-sm navbar-dark">
     <div class="container-fluid">
       <a class="navbar-brand" routerLink="">Lowgular.io</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+      <button class="navbar-toggler collapsed d-flex d-sm-none flex-column justify-content-around"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation">
+        <span class="toggler-icon top-bar"></span>
+        <span class="toggler-icon middle-bar"></span>
+        <span class="toggler-icon bottom-bar"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
+      <div class="collapse navbar-collapse text-center" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link" routerLink="">Home</a>
+            <a class="nav-link" routerLink="">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" routerLink="employee-list">List</a>
+            <a class="nav-link" routerLink="employee-list">LIST</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" routerLink="create-employee">Add employee</a>
+            <a class="nav-link" routerLink="create-employee">CREATE EMPLOYEE</a>
           </li>
         </ul>
       </div>
@@ -22,7 +30,19 @@
   </nav>
 </div>
 <router-outlet></router-outlet>
-
+<footer class="footer">
+  <div class="footer-left">
+    ® Lowgular.io
+  </div>
+  <div class="footer-right">
+    <span>
+      2022
+    </span>
+    <span>
+      <a href="https://github.com/CodeNinja500" target="_blank">Maciej Paluch</a>
+    </span>
+  </div>
+</footer>
 
 
 
