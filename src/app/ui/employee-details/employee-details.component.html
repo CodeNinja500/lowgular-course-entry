@@ -1,6 +1,26 @@
 <div class="container">
-<h1>Employee details</h1>
-  {{(details$ | async)?.id}}
-  <br>
-  {{(details$ | async)?.name}}
+
+  <div class="id-card">
+    <div class="top">
+      <div class="hole"></div>
+    </div>
+
+    <div class="picture">
+      <img src="assets/face-id-icon.svg">
+    </div>
+    <div class="content">
+      <div class="left-bar">
+        ID:<br>
+        NAME:<br>
+      </div>
+      <div class="right-bar">
+        {{(details$ | async)?.id}}
+        <br>
+        {{(details$ | async)?.name}}
+        <br>
+      </div>
+    </div>
+  </div>
 </div>
+
+

@@ -265,4 +265,50 @@ body{
 #employee-list-table tr:first-child td:last-child {
   border-top-right-radius: 10px;
 }
-//---------------------------------------------------------------------
+//-----------------------------EMPLOYEE DETAILS-------------------------------
+.id-card{
+  width: 17rem;
+  height: 24rem;
+  background-color: white;
+  border-radius: 1rem;
+  margin: 5rem auto 5rem auto;
+}
+.id-card .top{
+  width: 4rem;
+  height: 4rem;
+  border-radius: 4rem;
+  background-color: white;
+  position: relative;
+  top: -2rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.id-card .hole{
+  width: 2rem;
+  height: 2rem;
+  border-radius: 1rem;
+  background-color: #021337;
+  position: relative;
+  top: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.id-card .picture{
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.id-card .content{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  color: black;
+}
+.id-card .content .left-bar{
+  text-align: left;
+}
+.id-card .content .right-bar{
+  text-align: left;
+}
+

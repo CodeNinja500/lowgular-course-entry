@@ -43,7 +43,6 @@ export class EmployeeService {
         mail: response.data.employee_name + "@lowgular.io",
       }))
     );
-
   }
 
 
