@@ -26,11 +26,26 @@ export class EmployeeService {
       }));
   }
   delete(id: string): Observable<any> {
-    return this._httpClient.delete('https://dummy.restapiexample.com/api/v1/delete/' + id).pipe(map(_ => void 0));
+    return this._httpClient.delete('https://dummy.restapiexample.com/api/v1/delete/' + id).pipe(map(
+      _ => void 0));
   }
 
   create(employee: EmployeeFormModel): Observable<any> {
-    return this._httpClient.post('https://dummy.restapiexample.com/api/v1/create', employee).pipe(map(_ => void 0));
+    return this._httpClient.post('https://dummy.restapiexample.com/api/v1/create', employee).pipe(map(
+      _ => void 0));
   }
+  getOne(id: string): Observable<PersonModel> {
+    return this._httpClient.get<ApiResponse<EmployeeResponse>>('https://dummy.restapiexample.com/api/v1/employee/' +id).pipe(
+      map( (response): PersonModel => ({
+        id: response.data.id,
+        img: response.data.profile_image,
+        name: response.data.employee_name,
+        mail: response.data.employee_name + "@lowgular.io",
+      }))
+    );
+
+  }
+
+
 }
 

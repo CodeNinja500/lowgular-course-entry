@@ -225,11 +225,13 @@ body{
   max-width: 800px;
   border-collapse: collapse;
 }
-#minus-icon{
+.minus-icon{
   width: 1.5rem;
   height: 1.5rem;
+  margin-right: 3px;
+  margin-bottom: 3px;
 }
-#minus-icon:hover{
+.minus-icon:hover{
   color: darkred;
   cursor: pointer;
 }
