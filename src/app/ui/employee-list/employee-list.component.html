@@ -22,7 +22,7 @@
         {{employee.id}}
       </td>
       <td>
-        {{employee.name}}
+        <a style="color: inherit" routerLink="/employee-details/{{employee.id}}/{{employee.name}}" >{{employee.name}}</a>
       </td>
       <td>
         {{employee.mail}}
