@@ -167,7 +167,8 @@ body{
 }
 .button-home-page:hover{
   cursor: default;
-  background-color: #e2e2e2;
+  //background-color: #e2e2e2;
+  box-shadow: 0 5px 15px rgba(255, 255, 255, .6);
 }
 .button-home-page img{
   display: none;
