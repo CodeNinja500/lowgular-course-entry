@@ -98,7 +98,7 @@ body{
   bottom: 0;
   left: 0;
   width: 100%;
-  padding: 0.5rem 8% 0.5rem 8%;
+  padding: 0.5rem 15% 0.5rem 15%;
   background-color: rgba(10,10,55,1);
   font-family: 'Roboto', sans-serif;
   font-size: small;
@@ -126,6 +126,7 @@ body{
 }
 //----------------------------HOME PAGE--------------------------------
 #container-home-page{
+  margin-top: 45vh;
   height: 100%;
   padding-right: 1rem;
   padding-left: 1rem;
