@@ -98,7 +98,7 @@ body{
   bottom: 0;
   left: 0;
   width: 100%;
-  padding: 0.5rem 15% 0.5rem 15%;
+  padding: 0.5rem 0 0.5rem 0;
   background-color: rgba(10,10,55,1);
   font-family: 'Roboto', sans-serif;
   font-size: small;
@@ -109,6 +109,7 @@ body{
 .footer-right{
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 0.5rem;
   opacity: 0.8;
 }
@@ -269,7 +270,6 @@ body{
 //-----------------------------EMPLOYEE DETAILS-------------------------------
 .id-card{
   width: 17rem;
-  height: 24rem;
   background-color: white;
   border-radius: 1rem;
   margin: 5rem auto 5rem auto;
@@ -300,11 +300,11 @@ body{
   margin-left: auto;
 }
 .id-card .content{
-  margin-top: 2rem;
+  margin-top: 3rem;
   display: flex;
-  justify-content: center;
-  gap: 1rem;
+  justify-content: space-evenly;
   color: black;
+  padding-bottom: 3rem;
 }
 .id-card .content .left-bar{
   text-align: left;
