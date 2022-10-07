@@ -7,6 +7,7 @@ import {EmployeeListComponentModule} from "./ui/employee-list/employee-list.comp
 import {EmployeeFormComponent} from "./ui/employee-form/employee-form.component";
 import {EmployeeDetailsComponent} from "./ui/employee-details/employee-details.component";
 import {EmployeeDetailsComponentModule} from "./ui/employee-details/employee-details.component-module";
+import {EmployeeFormComponentModule} from "./ui/employee-form/employee-form.component-module";
 
 
 const routes: Routes = [{
@@ -22,12 +23,12 @@ const routes: Routes = [{
     component: EmployeeFormComponent
   },
   {
-    path: 'employee-details/:id/:name',
+    path: 'employee-details/:id',
     component: EmployeeDetailsComponent
   }];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes),HomeComponentModule,EmployeeListComponentModule,EmployeeListComponentModule,EmployeeDetailsComponentModule],
+  imports: [RouterModule.forRoot(routes),HomeComponentModule,EmployeeListComponentModule,EmployeeFormComponentModule, EmployeeListComponentModule,EmployeeDetailsComponentModule],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
