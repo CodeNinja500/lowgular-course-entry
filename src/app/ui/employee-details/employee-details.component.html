@@ -6,17 +6,17 @@
     </div>
 
     <div class="picture">
-      <img src="assets/face-id-icon.svg">
+      <img src="assets/face-id-icon.svg" alt="Profile picture">
     </div>
     <div class="content">
       <div class="left-bar">
         ID:<br>
         NAME:<br>
       </div>
-      <div class="right-bar">
-        {{(details$ | async)?.id}}
+      <div class="right-bar" *ngIf="details$ | async as details">
+        {{details.id}}
         <br>
-        {{(details$ | async)?.name}}
+        {{details.name}}
         <br>
       </div>
     </div>
